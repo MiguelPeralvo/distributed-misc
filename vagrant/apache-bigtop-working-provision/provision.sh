@@ -34,13 +34,13 @@ wget ftp://mirror.reverse.net/pub/apache/maven/maven-3/3.1.1/binaries/apache-mav
 #set stuff up
 #tar -xvf hadoop-2.2.0.tar.gz
 #tar -xvfhive-0.12.0.tar.gz
-tar -xvfapache-maven-3.1.1-bin.tar.gz
+tar -xvf apache-maven-3.1.1-bin.tar.gz
 #mv hive-0.12.0 hive
 #mv hadoop-2.2.0 hadoop
-mv apache-maven-3.1.1 maven 
+mv apache-maven-3.1.1 maven
 #create final env settings centos
 sudo sh -c "cat >> .bashrc" <<'EOF'
-export MAVEN_HOME=/home/vagrant/maven                                                                                                                                                                                                PATH=$PATH:$JAVA_HOME/bin:$MAVEN_HOME/bin
+export MAVEN_HOME=/home/vagrant/maven                                                                                                                    PATH=$PATH:$JAVA_HOME/bin:$MAVEN_HOME/bin
 export PATH   
 EOF
 # classpath 
