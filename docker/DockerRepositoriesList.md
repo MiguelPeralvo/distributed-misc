@@ -20,5 +20,7 @@ Zeromq: https://registry.hub.docker.com/u/coadu/zeromq/dockerfile/
 Rabbitmq: https://registry.hub.docker.com/u/dockerfile/rabbitmq/dockerfile/
 
 Mesos: https://registry.hub.docker.com/u/redjack/mesos/dockerfile/
+
         https://registry.hub.docker.com/u/redjack/mesos-master/
+        
         https://registry.hub.docker.com/u/redjack/mesos-slave/
