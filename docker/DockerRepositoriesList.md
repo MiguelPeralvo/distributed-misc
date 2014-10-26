@@ -6,6 +6,8 @@ Apache Storm: https://registry.hub.docker.com/u/wurstmeister/storm/dockerfile/
 
 Scala: https://registry.hub.docker.com/u/williamyeh/scala/dockerfile/
 
+Hadoop: https://registry.hub.docker.com/u/sequenceiq/hadoop-docker/dockerfile/
+
 Python: https://registry.hub.docker.com/u/dockerfile/python/
         https://registry.hub.docker.com/_/python/
 
