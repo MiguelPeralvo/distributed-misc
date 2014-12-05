@@ -1,28 +1,35 @@
-CoreOS: https://registry.hub.docker.com/u/coreos/etcd/dockerfile/
+[Cassandra] (https://registry.hub.docker.com/u/spotify/cassandra/)
 
-Apache Spark: https://registry.hub.docker.com/u/sequenceiq/spark/
+[MongoDB] (https://registry.hub.docker.com/u/dockerfile/mongodb/)
 
-Apache Storm: https://registry.hub.docker.com/u/wurstmeister/storm/dockerfile/
+[CoreOS] (https://registry.hub.docker.com/u/coreos/etcd/dockerfile/)
 
-Scala: https://registry.hub.docker.com/u/williamyeh/scala/dockerfile/
+[Apache Spark] (https://registry.hub.docker.com/u/sequenceiq/spark/)
 
-Hadoop: https://registry.hub.docker.com/u/sequenceiq/hadoop-docker/dockerfile/
+[Apache Storm] (https://registry.hub.docker.com/u/wurstmeister/storm/dockerfile/)
 
-Python: https://registry.hub.docker.com/u/dockerfile/python/
-        https://registry.hub.docker.com/_/python/
+[Scala] (https://registry.hub.docker.com/u/williamyeh/scala/dockerfile/)
 
-HBase: https://registry.hub.docker.com/u/banno/hbase-standalone/dockerfile/
+[Hadoop] (https://registry.hub.docker.com/u/sequenceiq/hadoop-docker/dockerfile/)
 
-ElasticSearch: https://registry.hub.docker.com/u/dockerfile/elasticsearch/dockerfile/
+[Python - repos1] (https://registry.hub.docker.com/u/dockerfile/python/)
+[Python - repos2] (https://registry.hub.docker.com/_/python/)
 
-Postgres: https://registry.hub.docker.com/_/postgres/
+[HBase] (https://registry.hub.docker.com/u/banno/hbase-standalone/dockerfile/)
 
-Zeromq: https://registry.hub.docker.com/u/coadu/zeromq/dockerfile/
+[ElasticSearch] (https://registry.hub.docker.com/u/dockerfile/elasticsearch/dockerfile/)
 
-Rabbitmq: https://registry.hub.docker.com/u/dockerfile/rabbitmq/dockerfile/
+[Postgres] (https://registry.hub.docker.com/_/postgres/)
 
-Mesos: https://registry.hub.docker.com/u/redjack/mesos/dockerfile/
+[Zeromq] (https://registry.hub.docker.com/u/coadu/zeromq/dockerfile/)
 
-        https://registry.hub.docker.com/u/redjack/mesos-master/
+[Rabbitmq] (https://registry.hub.docker.com/u/dockerfile/rabbitmq/dockerfile/)
+
+[Mesos] (https://registry.hub.docker.com/u/redjack/mesos/dockerfile/)
+
+[Mesos Master] (https://registry.hub.docker.com/u/redjack/mesos-master/)
         
-        https://registry.hub.docker.com/u/redjack/mesos-slave/
+[Mesos Slave] (https://registry.hub.docker.com/u/redjack/mesos-slave/)
+
+
+
