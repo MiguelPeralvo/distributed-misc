@@ -22,6 +22,8 @@
 
 [Postgres] (https://registry.hub.docker.com/_/postgres/)
 
+[Celery] (https://registry.hub.docker.com/u/dockerfile/celery/)
+
 [Zeromq] (https://registry.hub.docker.com/u/coadu/zeromq/dockerfile/)
 
 [Rabbitmq] (https://registry.hub.docker.com/u/dockerfile/rabbitmq/dockerfile/)
