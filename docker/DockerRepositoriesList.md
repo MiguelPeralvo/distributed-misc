@@ -36,3 +36,4 @@
 
 [Jenkins] (https://registry.hub.docker.com/_/jenkins/)
 
+[Chef Ubuntu 14.04] (https://registry.hub.docker.com/u/chef/ubuntu-14.04/)
