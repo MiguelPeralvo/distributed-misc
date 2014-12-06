@@ -34,5 +34,5 @@
         
 [Mesos Slave] (https://registry.hub.docker.com/u/redjack/mesos-slave/)
 
-
+[Jenkins] (https://registry.hub.docker.com/_/jenkins/)
 
