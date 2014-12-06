@@ -9,3 +9,6 @@
 
 [Omega: flexible, scalable schedulers for large compute clusters] (http://eurosys2013.tudos.org/wp-content/uploads/2013/paper/Schwarzkopf.pdf)
 
+[Sparrow: Distributed, Low Latency Scheduling] (http://people.csail.mit.edu/matei/papers/2013/sosp_sparrow.pdf)
+
+[Sparrow: Scalable Scheduling for Sub-Second Parallel Jobs] (http://www.utdallas.edu/~cxl137330/courses/fall13/RTS/papers/29.pdf)
