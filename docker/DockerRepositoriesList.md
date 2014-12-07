@@ -28,11 +28,11 @@
 
 [Rabbitmq] (https://registry.hub.docker.com/u/dockerfile/rabbitmq/dockerfile/)
 
-[Mesos] (https://registry.hub.docker.com/u/redjack/mesos/dockerfile/)
+[Mesos - Redjack ] (https://registry.hub.docker.com/u/redjack/mesos/dockerfile/)
 
-[Mesos Master] (https://registry.hub.docker.com/u/redjack/mesos-master/)
+[Mesos Master - Redjack] (https://registry.hub.docker.com/u/redjack/mesos-master/)
         
-[Mesos Slave] (https://registry.hub.docker.com/u/redjack/mesos-slave/)
+[Mesos Slave - Redjack ] (https://registry.hub.docker.com/u/redjack/mesos-slave/)
 
 [Jenkins] (https://registry.hub.docker.com/_/jenkins/)
 
