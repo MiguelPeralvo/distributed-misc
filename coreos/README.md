@@ -1,0 +1,1 @@
+[Basic CoreOs cluster] (http://www.linuxbsdos.com/2014/09/19/how-to-set-up-a-3-node-coreos-cluster-just-for-fun/)
