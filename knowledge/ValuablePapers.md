@@ -5,6 +5,8 @@
 
 [MapReduce: Simplified Data Processing on Large Clusters] (http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
 
+[Map-Reduce for Machine Learning on Multicore] (http://www.cs.stanford.edu/people/ang/papers/nips06-mapreducemulticore.pdf)
+
 [Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center] (https://www.usenix.org/legacy/event/nsdi11/tech/full_papers/Hindman_new.pdf)
 
 [Monoidify! Monoids as a Design Principle for Efficient MapReduce Algorithms] (http://arxiv.org/pdf/1304.7544v1.pdf)
