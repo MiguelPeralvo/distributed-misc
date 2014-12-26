@@ -1,3 +1,4 @@
+[A Linear-Time Probabilistic Counting Algorithm for Database Applications] (http://dblab.kaist.ac.kr/Publication/pdf/ACM90_TODS_v15n2.pdf)
 
 [Availability in Globally Distributed Storage Systems] (http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36737.pdf)
 
