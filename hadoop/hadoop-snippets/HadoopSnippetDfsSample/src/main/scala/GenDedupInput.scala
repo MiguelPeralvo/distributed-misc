@@ -26,6 +26,10 @@ object GenDedupInput {
     //Open fileSystem to HDFS
 
     val configuration = new Configuration()
+    //configuration.set("fs.hdfs.impl", org.apache.hadoop.hdfs.DistributedFileSystem.asInstanceOf[AnyRef].getClass.getName);
+    //configuration.set("fs.hdfs.impl", classOf[org.apache.hadoop.hdfs.DistributedFileSystem].getClass.getName);
+    //configuration.set("fs.file.impl", org.apache.hadoop.fs.LocalFileSystem.asInstanceOf[AnyRef].getClass.getName);
+    //configuration.set("fs.file.impl", classOf[org.apache.hadoop.fs.LocalFileSystem].getClass.getName);
     configuration.addResource(new Path("/usr/local/Cellar/hadoop/2.6.0/libexec/etc/hadoop/core-site.xml"))
     configuration.addResource(new Path("/usr/local/Cellar/hadoop/2.6.0/libexec/etc/hadoop/hdfs-site.xml"))
     println(configuration.get("fs.default.name"))
