@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite 
+errors="0" failures="0" hostname="Miguels-MacBook-Pro.local" name="org.scalatest.tools.DiscoverySuite" tests="0" time="0.015" timestamp="2015-05-17T14:12:20">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment">
+    </property>
+    <property 
+    name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib">
+</property>
+    <property name="java.vm.version" value="25.40-b16"> </property>
+    <property name="user.country.format" value="GB"> </property>
+    <property name="gopherProxySet" value="false"> </property>
+    <property name="java.vm.vendor" value="Oracle Corporation"> </property>
+    <property name="java.vendor.url" value="http://java.oracle.com/">
+    </property>
+    <property name="path.separator" value=":"> </property>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM">
+    </property>
+    <property name="file.encoding.pkg" value="sun.io"> </property>
+    <property name="user.country" value="US"> </property>
+    <property name="sun.java.launcher" value="SUN_STANDARD"> </property>
+    <property name="sun.os.patch.level" value="unknown"> </property>
+    <property 
+    name="java.vm.specification.name" value="Java Virtual Machine Specification">
+</property>
+    <property 
+    name="user.dir" value="/Users/Miguel/Git/hadoop-arch-book/ch05-processing-patterns/dedup/spark">
+</property>
+    <property name="java.runtime.version" value="1.8.0_40-ea-b12"> </property>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment">
+    </property>
+    <property 
+    name="basedir" value="/Users/Miguel/Git/hadoop-arch-book/ch05-processing-patterns/dedup/spark">
+</property>
+    <property 
+    name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/endorsed">
+</property>
+    <property name="os.arch" value="x86_64"> </property>
+    <property 
+    name="java.io.tmpdir" value="/var/folders/d6/kwsrvx8d3y9f6xztyntztcd40000gn/T/">
+</property>
+    <property name="line.separator" value=" "> </property>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation">
+    </property>
+    <property name="os.name" value="Mac OS X"> </property>
+    <property name="sun.jnu.encoding" value="UTF-8"> </property>
+    <property 
+    name="java.library.path" value="/Users/Miguel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.">
+</property>
+    <property 
+    name="java.specification.name" value="Java Platform API Specification">
+</property>
+    <property name="java.class.version" value="52.0"> </property>
+    <property 
+    name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers">
+</property>
+    <property name="os.version" value="10.9.5"> </property>
+    <property 
+    name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16">
+</property>
+    <property name="user.home" value="/Users/Miguel"> </property>
+    <property name="user.timezone" value="Europe/London"> </property>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob">
+    </property>
+    <property name="java.specification.version" value="1.8"> </property>
+    <property name="file.encoding" value="UTF-8"> </property>
+    <property name="user.name" value="Miguel"> </property>
+    <property 
+    name="java.class.path" value="/Users/Miguel/Git/hadoop-arch-book/ch05-processing-patterns/dedup/spark/target/scala/test-classes:/Users/Miguel/Git/hadoop-arch-book/ch05-processing-patterns/dedup/spark/target/scala/classes:/Users/Miguel/.m2/repository/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar:/Users/Miguel/.m2/repository/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar:/Users/Miguel/.m2/repository/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar:/Users/Miguel/.m2/repository/org/scalatest/scalatest_2.10/2.1.5/scalatest_2.10-2.1.5.jar:/Users/Miguel/.m2/repository/org/apache/spark/spark-core_2.10/1.1.0-cdh5.2.0/spark-core_2.10-1.1.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-client/2.5.0-cdh5.2.0/hadoop-client-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-common/2.5.0-cdh5.2.0/hadoop-common-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/Miguel/.m2/repository/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1.jar:/Users/Miguel/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/Users/Miguel/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/Users/Miguel/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Miguel/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Miguel/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Miguel/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/Users/Miguel/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/Users/Miguel/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/Users/Miguel/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/Users/Miguel/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar:/Users/Miguel/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-auth/2.5.0-cdh5.2.0/hadoop-auth-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar:/Users/Miguel/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar:/Users/Miguel/.m2/repository/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.jar:/Users/Miguel/.m2/repository/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.jar:/Users/Miguel/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.5.0-cdh5.2.0/hadoop-hdfs-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.5.0-cdh5.2.0/hadoop-mapreduce-client-app-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.5.0-cdh5.2.0/hadoop-mapreduce-client-common-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.5.0-cdh5.2.0/hadoop-yarn-client-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.5.0-cdh5.2.0/hadoop-yarn-server-common-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.5.0-cdh5.2.0/hadoop-mapreduce-client-shuffle-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.5.0-cdh5.2.0/hadoop-yarn-api-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.5.0-cdh5.2.0/hadoop-mapreduce-client-core-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.5.0-cdh5.2.0/hadoop-yarn-common-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar:/Users/Miguel/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/Miguel/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/Miguel/.m2/repository/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar:/Users/Miguel/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.8/jackson-jaxrs-1.8.8.jar:/Users/Miguel/.m2/repository/org/codehaus/jackson/jackson-xc/1.8.8/jackson-xc-1.8.8.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.5.0-cdh5.2.0/hadoop-mapreduce-client-jobclient-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/hadoop/hadoop-annotations/2.5.0-cdh5.2.0/hadoop-annotations-2.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/net/java/dev/jets3t/jets3t/0.9.0/jets3t-0.9.0.jar:/Users/Miguel/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Miguel/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Miguel/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Miguel/.m2/repository/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.jar:/Users/Miguel/.m2/repository/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar:/Users/Miguel/.m2/repository/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar:/Users/Miguel/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/Users/Miguel/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-plus/8.1.14.v20131031/jetty-plus-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/orbit/javax.transaction/1.1.1.v201105210645/javax.transaction-1.1.1.v201105210645.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-webapp/8.1.14.v20131031/jetty-webapp-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-xml/8.1.14.v20131031/jetty-xml-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-servlet/8.1.14.v20131031/jetty-servlet-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-jndi/8.1.14.v20131031/jetty-jndi-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/orbit/javax.mail.glassfish/1.4.1.v201005082020/javax.mail.glassfish-1.4.1.v201005082020.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/orbit/javax.activation/1.1.0.v201105071233/javax.activation-1.1.0.v201105071233.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-security/8.1.14.v20131031/jetty-security-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-util/8.1.14.v20131031/jetty-util-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-server/8.1.14.v20131031/jetty-server-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-continuation/8.1.14.v20131031/jetty-continuation-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-http/8.1.14.v20131031/jetty-http-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/org/eclipse/jetty/jetty-io/8.1.14.v20131031/jetty-io-8.1.14.v20131031.jar:/Users/Miguel/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar:/Users/Miguel/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/Miguel/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Miguel/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/Users/Miguel/.m2/repository/org/slf4j/jul-to-slf4j/1.7.5/jul-to-slf4j-1.7.5.jar:/Users/Miguel/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar:/Users/Miguel/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/Miguel/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar:/Users/Miguel/.m2/repository/com/ning/compress-lzf/1.0.0/compress-lzf-1.0.0.jar:/Users/Miguel/.m2/repository/org/xerial/snappy/snappy-java/1.0.5.3/snappy-java-1.0.5.3.jar:/Users/Miguel/.m2/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar:/Users/Miguel/.m2/repository/com/twitter/chill_2.10/0.3.6/chill_2.10-0.3.6.jar:/Users/Miguel/.m2/repository/com/twitter/chill-java/0.3.6/chill-java-0.3.6.jar:/Users/Miguel/.m2/repository/commons-net/commons-net/2.2/commons-net-2.2.jar:/Users/Miguel/.m2/repository/org/spark-project/akka/akka-remote_2.10/2.2.3-shaded-protobuf/akka-remote_2.10-2.2.3-shaded-protobuf.jar:/Users/Miguel/.m2/repository/org/spark-project/akka/akka-actor_2.10/2.2.3-shaded-protobuf/akka-actor_2.10-2.2.3-shaded-protobuf.jar:/Users/Miguel/.m2/repository/com/typesafe/config/1.0.2/config-1.0.2.jar:/Users/Miguel/.m2/repository/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar:/Users/Miguel/.m2/repository/org/spark-project/protobuf/protobuf-java/2.4.1-shaded/protobuf-java-2.4.1-shaded.jar:/Users/Miguel/.m2/repository/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar:/Users/Miguel/.m2/repository/org/spark-project/akka/akka-slf4j_2.10/2.2.3-shaded-protobuf/akka-slf4j_2.10-2.2.3-shaded-protobuf.jar:/Users/Miguel/.m2/repository/org/json4s/json4s-jackson_2.10/3.2.10/json4s-jackson_2.10-3.2.10.jar:/Users/Miguel/.m2/repository/org/json4s/json4s-core_2.10/3.2.10/json4s-core_2.10-3.2.10.jar:/Users/Miguel/.m2/repository/org/json4s/json4s-ast_2.10/3.2.10/json4s-ast_2.10-3.2.10.jar:/Users/Miguel/.m2/repository/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar:/Users/Miguel/.m2/repository/colt/colt/1.2.0/colt-1.2.0.jar:/Users/Miguel/.m2/repository/concurrent/concurrent/1.3.4/concurrent-1.3.4.jar:/Users/Miguel/.m2/repository/org/apache/mesos/mesos/0.18.1/mesos-0.18.1-shaded-protobuf.jar:/Users/Miguel/.m2/repository/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar:/Users/Miguel/.m2/repository/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar:/Users/Miguel/.m2/repository/com/codahale/metrics/metrics-core/3.0.0/metrics-core-3.0.0.jar:/Users/Miguel/.m2/repository/com/codahale/metrics/metrics-jvm/3.0.0/metrics-jvm-3.0.0.jar:/Users/Miguel/.m2/repository/com/codahale/metrics/metrics-json/3.0.0/metrics-json-3.0.0.jar:/Users/Miguel/.m2/repository/com/codahale/metrics/metrics-graphite/3.0.0/metrics-graphite-3.0.0.jar:/Users/Miguel/.m2/repository/org/tachyonproject/tachyon-client/0.5.0/tachyon-client-0.5.0.jar:/Users/Miguel/.m2/repository/org/tachyonproject/tachyon/0.5.0/tachyon-0.5.0.jar:/Users/Miguel/.m2/repository/org/spark-project/pyrolite/2.0.1/pyrolite-2.0.1.jar:/Users/Miguel/.m2/repository/net/sf/py4j/py4j/0.8.2.1/py4j-0.8.2.1.jar:/Users/Miguel/.m2/repository/org/apache/spark/spark-mllib_2.10/1.1.0-cdh5.2.0/spark-mllib_2.10-1.1.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/spark/spark-streaming_2.10/1.1.0-cdh5.2.0/spark-streaming_2.10-1.1.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/jblas/jblas/1.2.3/jblas-1.2.3.jar:/Users/Miguel/.m2/repository/org/scalanlp/breeze_2.10/0.9/breeze_2.10-0.9.jar:/Users/Miguel/.m2/repository/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1.jar:/Users/Miguel/.m2/repository/org/scalamacros/quasiquotes_2.10/2.0.0-M8/quasiquotes_2.10-2.0.0-M8.jar:/Users/Miguel/.m2/repository/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar:/Users/Miguel/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar:/Users/Miguel/.m2/repository/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar:/Users/Miguel/.m2/repository/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.jar:/Users/Miguel/.m2/repository/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4.jar:/Users/Miguel/.m2/repository/org/kitesdk/kite-data-core/0.15.0-cdh5.2.0/kite-data-core-0.15.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/kitesdk/kite-hadoop-compatibility/0.15.0-cdh5.2.0/kite-hadoop-compatibility-0.15.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/apache/avro/avro/1.7.6-cdh5.2.0/avro-1.7.6-cdh5.2.0.jar:/Users/Miguel/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar:/Users/Miguel/.m2/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar:/Users/Miguel/.m2/repository/org/tukaani/xz/1.0/xz-1.0.jar:/Users/Miguel/.m2/repository/com/twitter/parquet-avro/1.5.0-cdh5.2.0/parquet-avro-1.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/com/twitter/parquet-column/1.5.0-cdh5.2.0/parquet-column-1.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/com/twitter/parquet-common/1.5.0-cdh5.2.0/parquet-common-1.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/com/twitter/parquet-encoding/1.5.0-cdh5.2.0/parquet-encoding-1.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/com/twitter/parquet-generator/1.5.0-cdh5.2.0/parquet-generator-1.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/com/twitter/parquet-hadoop/1.5.0-cdh5.2.0/parquet-hadoop-1.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/com/twitter/parquet-jackson/1.5.0-cdh5.2.0/parquet-jackson-1.5.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/com/twitter/parquet-format/2.1.0-cdh5.2.0/parquet-format-2.1.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/Users/Miguel/.m2/repository/org/apache/commons/commons-jexl/2.1.1/commons-jexl-2.1.1.jar:/Users/Miguel/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Miguel/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.3.1/jackson-databind-2.3.1.jar:/Users/Miguel/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.jar:/Users/Miguel/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.3.1/jackson-core-2.3.1.jar:/Users/Miguel/.m2/repository/org/kitesdk/kite-data-spark/0.15.0-cdh5.2.0/kite-data-spark-0.15.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/kitesdk/kite-data-mapreduce/0.15.0-cdh5.2.0/kite-data-mapreduce-0.15.0-cdh5.2.0.jar:/Users/Miguel/.m2/repository/com/twitter/chill-avro/0.3.6/chill-avro-0.3.6.jar:/Users/Miguel/.m2/repository/com/twitter/chill-bijection_2.10/0.3.6/chill-bijection_2.10-0.3.6.jar:/Users/Miguel/.m2/repository/com/twitter/bijection-core_2.10/0.6.2/bijection-core_2.10-0.6.2.jar:/Users/Miguel/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar:/Users/Miguel/.m2/repository/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar:/Users/Miguel/.m2/repository/org/ow2/asm/asm/4.0/asm-4.0.jar:/Users/Miguel/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar:/Users/Miguel/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/Users/Miguel/.m2/repository/com/twitter/bijection-avro_2.10/0.6.2/bijection-avro_2.10-0.6.2.jar:/Users/Miguel/.m2/repository/org/apache/avro/avro-mapred/1.7.6-cdh5.2.0/avro-mapred-1.7.6-cdh5.2.0-hadoop2.jar:/Users/Miguel/.m2/repository/org/apache/avro/avro-ipc/1.7.6-cdh5.2.0/avro-ipc-1.7.6-cdh5.2.0.jar:/Users/Miguel/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/Miguel/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/Miguel/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/Miguel/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/Miguel/.m2/repository/org/apache/avro/avro-ipc/1.7.6-cdh5.2.0/avro-ipc-1.7.6-cdh5.2.0-tests.jar:/Users/Miguel/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/Miguel/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar">
+</property>
+    <property name="java.vm.specification.version" value="1.8"> </property>
+    <property name="sun.arch.data.model" value="64"> </property>
+    <property 
+    name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre">
+</property>
+    <property 
+    name="sun.java.command" value="org.scalatest.tools.Runner -R /Users/Miguel/Git/hadoop-arch-book/ch05-processing-patterns/dedup/spark/target/scala/classes /Users/Miguel/Git/hadoop-arch-book/ch05-processing-patterns/dedup/spark/target/scala/test-classes -o -u /Users/Miguel/Git/hadoop-arch-book/ch05-processing-patterns/dedup/spark/target/scalatest-reports/.">
+</property>
+    <property name="java.specification.vendor" value="Oracle Corporation">
+    </property>
+    <property name="user.language" value="en"> </property>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit">
+    </property>
+    <property name="java.vm.info" value="mixed mode"> </property>
+    <property name="java.version" value="1.8.0_40-ea"> </property>
+    <property 
+    name="java.ext.dirs" value="/Users/Miguel/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java">
+</property>
+    <property 
+    name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/classes">
+</property>
+    <property name="java.vendor" value="Oracle Corporation"> </property>
+    <property name="file.separator" value="/"> </property>
+    <property 
+    name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/">
+</property>
+    <property name="sun.cpu.endian" value="little"> </property>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"> </property>
+    <property 
+    name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16">
+</property>
+    <property 
+    name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16">
+</property>
+    <property name="sun.cpu.isalist" value=""> </property>
+  </properties>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
